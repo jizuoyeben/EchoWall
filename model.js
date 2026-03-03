@@ -2,7 +2,7 @@
 // XGBoost模型的JavaScript实现
 function predict(input) {
     // 输入验证
-    if (!Array.isArray(input) || input.length !== 15) {
+    if (!Array.isArray(input) || input.length !== 11) {
         throw new Error('输入必须是长度为11的数组');
     }
     
