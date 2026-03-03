@@ -26,10 +26,10 @@ window.predict = function() {
         // 收集并转换输入数据
         const inputArray = collectInputs();
 
-        // 构造要显示的内容：数组 + 长度
-        const msg = `inputArray: ${JSON.stringify(inputArray)}\nlength: ${inputArray.length}`;
-        // 调用 showError 显示
-        showError(msg);
+        // // 构造要显示的内容：数组 + 长度
+        // const msg = `inputArray: ${JSON.stringify(inputArray)}\nlength: ${inputArray.length}`;
+        // // 调用 showError 显示
+        // showError(msg);
 
 
 
