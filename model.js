@@ -3,7 +3,7 @@
 function predict(input) {
     // 输入验证
     if (!Array.isArray(input) || input.length !== 15) {
-        throw new Error('输入必须是长度为15的数组');
+        throw new Error('输入必须是长度为11的数组');
     }
     
     // 验证输入值都是数字
