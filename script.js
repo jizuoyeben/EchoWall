@@ -73,14 +73,14 @@ const idToFeature = {
     'Age_Rank': 'Age',
     'Menopause' : 'MENOPAYAGE',
     'Education_Level': 'Edu',
-    'Gender' : "SEX",
-    "Tinnitus" : "Tinnitus",
-    "Headphone_Usage" : "HEADPHONE",
-    "Hypertension" : "HBP",
-    "Resident" : "BIRPLACE",
-    "Smoke_Stage" : "SMOKE",
-    "Diabetes" : "DIA",
-    "Drink_Stage" : "DRINK"
+    'Gender' : 'SEX',
+    'Tinnitus' : 'Tinnitus',
+    'Headphone_Usage' : 'HEADPHONE',
+    'Hypertension' : 'HBP',
+    'Resident' : 'BIRPLACE',
+    'Smoke_Stage' : 'SMOKE',
+    'Diabetes' : 'DIA',
+    'Drink_Stage' : 'DRINK'
 };
 
 // 必填字段
@@ -89,24 +89,20 @@ const REQUIRED_FIELDS = [
     'Menopause',
     'Education_Level',
     'Gender',
-    "Tinnitus",
-    "Headphone_Usage",
-    "Hypertension",
-    "Resident",
-    "Smoke_Stage",
-    "Diabetes",
-    "Drink_Stage",
+    'Tinnitus',
+    'Headphone_Usage',
+    'Hypertension',
+    'Resident',
+    'Smoke_Stage',
+    'Diabetes',
+    'Drink_Stage'
 ];
 
 // 定义每个步骤对应的字段 ID
 const STEP_FIELDS = {
-    // 1: ['age_rank', 'sex', 'Education', 'race'], // Basic Information
-    // 2: ['activities', 'dairy', 'smoke'], // Lifestyle Habits
-    // 3: ['hearing', 'tinnitus', 'tg', 'cho'], // Medical History
-    // 4: ['hbp', 'glu', 'drink', 'bmi'] // Clinical Test Results
     1: ['Age_Rank', 'Menopause', 'Education_Level', 'Gender', 'Resident'], // Basic Information
     2: ['Headphone_Usage', 'Drink_Stage', 'Smoke_Stage'], // Lifestyle Habits
-    3: ['Tinnitus', 'Hypertension', 'Diabetes'], // Medical History
+    3: ['Tinnitus', 'Hypertension', 'Diabetes'] // Medical History
 };
 
 // ===== 第三步：辅助函数定义 =====
